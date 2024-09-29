@@ -1,0 +1,33 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+.todo-list{
+    background-image: url(assests/todolistbg.webp);
+    background-position: 50%;
+    height: 500px;
+    width: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.head{
+    text-align: center;
+}
+.para{
+    text-align: center;
+}
+.head1{
+    text-align:center;
+}
+.button-container{
+    text-align: center;
+}
+button{
+    background-color: orange;
+    color: #fff;
+}
+.note{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 13px;
+}
