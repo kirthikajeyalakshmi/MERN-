@@ -1,0 +1,12 @@
+.bg-container{
+    background-image: url('https://ik.imagekit.io/bchscxgr3/tourism%20project/sea-img');
+    width: 300px;
+    height: 550px;
+    background-size: cover;
+}
+.bg-container-places{
+    background-image: url('https://ik.imagekit.io/bchscxgr3/tourism%20project/beautiful-vertical-shot-taj-mahal-building-agra-india-cloudy-sky_181624-16913.jpg_w=360&t=st=1701439850~exp=1701440450~hmac=d7ac3bddece600ab586175213db383fbe6ffd107ac6e3c9f0d743a8330291096?updatedAt=1728193150235');
+    width: 300px;
+    height: 520px;
+    background-size: cover;
+}
