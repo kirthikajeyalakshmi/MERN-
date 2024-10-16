@@ -1,0 +1,56 @@
+//HTML
+What is HTML? Html is the hyper text markup language.
+
+Why html is used? It helps in displaying content,text,images in browsers.
+
+What is emmet and 5emmet? It's a shorthand abbreviations eg: !enter,li*5,div.container.img+enter,div#container,penter,aenter.
+
+SHORT CUT CREATE of Emmet Boiler plate of HTML? Html:5 or !+enter.
+
+structure of html? <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Title</title>
+  </head>
+  <body>
+    <!-- content -->
+  </body>
+</html>
+
+head tag? containes metadata about the html,which is not visisble to the users but this is essential.
+
+body tag?its a visisble content of the webpage like texts,images,links to interact with users.
+
+ 3 elements or tags? <p></p>,<h1></h1>,<button>,</button> 
+
+Difference Between Elements & Tags in HTML?
+Tags are building blocks of html,,written bw <> eg:<p></>
+Element are the actual content or structure in html. eg:<p>para tag</p>
+
+//CSS
+CSS - Cascading Style Sheet
+
+Why CSS -  Used to control appearance and layout of webpage, used to style html elements with font,color,spacing.
+
+HOW TO CONNECT HTML & CSS , Tell the emmet Shortcut - <link></link> emmet: link:css
+
+HOW TO GET FONT & COLOR , IMAGE, CDN - 
+font - visit google fonts,select font and copy the embed code copy it in head tag
+color - colors are applied via css. use hexcode,rgb,rgba
+Img - To connect Img via cdn,create a new folder in imagekit.io ,copy the image and past it add it to the folder and copy url of the image and paste it in the img tag in html or in background-img.
+
+WHEN TO USE BACKGROUND IMG VS IMG TAG - by using img tag, we can't write text on the img , but using the background-img we can write text on the img.
+
+WHAT IS LAYOUT & Explain About flexbox Properties -
+Layout is the arrangement of visual representation on webpage,how content is displayed and structured. the properties are: 
+flex,flex-row,flex-col,justify-start,justify-center,justify-end,items-start,items-center,items-end,order,gap.
+
+WHAT IS TAILWIND CSS & WHY IS IT USED
+Tailwind is a utility first css framework.used to style the webpage using pre defined classes into html.
+
+BASIC CSS FAMILY : Text Family, Color & Background Family, Box Model 
+Text Family: font-family,font-size,font-weight,leading.
+ Color & Background Family: text-color,bg-color,opacity,background-img
+Box Model : m,p,border,border-color,border-width,border-styleh,w.
