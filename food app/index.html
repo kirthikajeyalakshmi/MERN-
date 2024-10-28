@@ -13,14 +13,90 @@
     />
 
     <!-- normal css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="2xl:container mx-auto">
+    <header>
+      <div class="fixed top-0 w-[100%]">
+        <div class="2xl:container mx-auto bg-white">
+          <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 bg-white">
+            <div class="flex flex-row justify-between items-center">
+              <img class="h-20" src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/food-munch-img.png" alt="logo">
+    
+              <div>
+                <svg viewBox="0 0 1024 1024" fill="currentColor"{...props} class="md:hidden bg-transparent border border-[#d3ae00] h-[40px] py-2 px-3 rounded-lg" id="menuicon" >
+                  <path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z" />
+                  </svg>
+    
+                  <svg fill="none" viewBox="0 0 15 15"{...props} class="hidden  bg-transparent border border-[#d3ae00] h-[40px] py-2 px-3 rounded-lg" id="crossicon">
+                      <path
+                        fill="currentColor"
+                        fillRule="evenodd"
+                        d="M12.854 2.854a.5.5 0 00-.708-.708L7.5 6.793 2.854 2.146a.5.5 0 10-.708.708L6.793 7.5l-4.647 4.646a.5.5 0 00.708.708L7.5 8.207l4.646 4.647a.5.5 0 00.708-.708L8.207 7.5l4.647-4.646z"
+                        clipRule="evenodd"/>
+                  </svg> 
+              </div>
+            </div>
+    
+            <div id="content" class="hidden md:block">
+              <ul class="flex md:flex-row flex-col items-center justify-end md:p-6 gap-4">
+                <li id="why" class="cursor-pointer">Why Choose Us?</li>
+                <li id="explore" class="cursor-pointer">Explore Menu</li>
+                <li id="delivery" class="cursor-pointer">Delivery & Payment</li>
+                <li id="follow" class="cursor-pointer">Follow Us</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </header>
 
-    </div>
+    <script>
+      const menuelement=document.getElementById("menuicon")
+      const crosselement=document.getElementById("crossicon")
+      const contentelement=document.getElementById("content")
+      const whyelement=document.getElementById("why")
+      const exploreelement=document.getElementById("explore")
+      const deliveryelement=document.getElementById("delivery")
+      const followelement=document.getElementById("follow")
+
+
+      menuelement.addEventListener("click",()=>{
+        contentelement.classList="md:block"
+        crosselement.classList.remove("hidden")
+        menuelement.classList.add("hidden")
+      })
+      crosselement.addEventListener("click",()=>{
+        contentelement.classList.add("hidden")
+        menuelement.classList.remove("hidden")
+        crosselement.classList.add("hidden")
+      })
+      whyelement.addEventListener("click",()=>{
+        contentelement.classList.add("hidden")
+        menuelement.classList.remove("hidden")
+        crosselement.classList.add("hidden")
+      })
+      exploreelement.addEventListener("click",()=>{
+        contentelement.classList.add("hidden")
+        menuelement.classList.remove("hidden")
+        crosselement.classList.add("hidden")
+      })
+      deliveryelement.addEventListener("click",()=>{
+        contentelement.classList.add("hidden")
+        menuelement.classList.remove("hidden")
+        crosselement.classList.add("hidden")
+      })
+      followelement.addEventListener("click",()=>{
+        contentelement.classList.add("hidden")
+        menuelement.classList.remove("hidden")
+        crosselement.classList.add("hidden")
+      })
+
+    </script>
+
     <!-- hero section starts -->
     <section class="bg-container py-5">
       <div class="2xl:container mx-auto h-[100%]">
@@ -66,13 +142,10 @@
         class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
       >
         <!-- card1 starts -->
-        <div
-          class="bg-white text-center flex flex-col justify-center items-center p-5 rounded-2xl shadow-lg"
-        >
+        <div class="bg-white text-center flex flex-col justify-center items-center p-5 rounded-2xl shadow-lg">
           <img
             src="https://ik.imagekit.io/bchscxgr3/images/food%20store/food-serve.png?updatedAt=1728208757189"
-            alt="card img"
-          />
+            alt="card img"/>
 
           <p class="font-[poppins] font-[600] text-[18px]">Food Service</p>
 
