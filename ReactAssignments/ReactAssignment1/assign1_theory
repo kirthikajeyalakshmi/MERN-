@@ -1,0 +1,40 @@
+1. What is Emmet?
+-Allows to write html and css faster.supported in editors visual studio code.
+eg: div#root and pressing tab expands to <div id="root></div>
+
+2. Difference Between a Library and a Framework
+Library - A collection of pre written code for doing specific taskes. you call the library functions when needed.
+eg:react
+Framework - It's a set of rules,its a set of tools.provides a foundation and guidlines so you dont have to start anything from stracth.
+eg:angular
+
+3. What is a CDN? Why Do We Use It?
+Content delivery network is a distributed network of servers that delivers web content to users based on their geographical location.
+Why Do We Use a CDN?
+Faster Loading - The server closest to the user sends the data, so the website loads quicker.
+Less Stress on the Main Server-The work is spread across many servers, so no single server gets overloaded.
+More Reliable - If one server has a problem, others can take over to keep the website online.
+
+4. Why is React Known as React?
+React is called as react because it quickly react to changes in data or user actions.
+React updates and re-render components in response to changes using a virtual DOM for efficiency.
+
+5. What is crossorigin in the Script Tag?
+The crossorigin attribute in the script tag specifies how a browser should handle cross origin requests when loading a script.
+It tells the browser how to handle credentials(cookies and http authentication) and resource sharing rules for such request.
+
+6. Difference Between React and ReactDOM?
+React and ReactDOM are both libraries from react ecosystem.
+React - Core library. Build components,Manage state and props,handling the logic of how UI should behave and look.
+ReactDOM - Connects you react components to the real DOM in the broser,renders react components to the DOM.
+React: Handles what to display and how the app works.
+ReactDOM: Takes React's output and puts it on the webpage.
+
+7. Difference Between react.development.js and react.production.js?
+react.development.js - used during development,Includes helpful warnings, error messages, and debugging tools. meant for testing.
+react.production.js - used in production,optimized and minified for performance.Meant for deployment.
+
+8. What are async and defer in <script>?
+Both improve page loading by controlling how js fils are loaded and executed.
+async - scripts load in the background and execute immediately once ready,used for independent scripts.
+defer - scripts load in the background but executes after the HTML is fully parsed,used for scripts dependent on the DOM.
